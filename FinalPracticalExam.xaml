@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="FinalTest.FinalPracticalExam"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel HorizontalAlignment="Center">
+        <TextBlock FontSize="30" TextAlignment="Center" Margin="30" FontWeight="ExtraBold">MENU</TextBlock>
+        <Button FontSize="20" Margin="10" Click="AddContact_Clicked" Padding="15" MinWidth="350">ADD CONTACT</Button>
+        <Button FontSize="20" Margin="10" Click="SearchContact_Clicked" Padding="15" MinWidth="350">SEARCH CONTACT</Button>
+        <Button FontSize="20" Margin="10" Click="ListContact_Clicked" Padding="15" MinWidth="350">LIST CONTACT</Button>
+    </StackPanel>
+</Page>
